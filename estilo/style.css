@@ -8,8 +8,6 @@
     font-weight: normal;
 }
 
-/* VARIAVEL EM CSS*/
-
 :root {
     --cor0:#c5ebd6;
     --cor1:#83e1ad;
@@ -23,7 +21,6 @@
     --fonte-android: 'Android', cursive;
 }
 
-/* MARGEM GLOBAL (TODOS PARAMETROS VAO OBEDECER O *) */
 *{
     margin: 0px;
     padding: 0px;
@@ -43,7 +40,7 @@ header {
     text-align: center;
     color: white;
     font-family: var(--fonte-destaque);
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
     padding: 10px 2px;
 }
 
@@ -59,11 +56,11 @@ nav a {
     font-weight: normal;
     border-radius: 3px;
     padding: 5px;
-    transition-duration: 0.4s;
+    transition-duration: 0.3s;
 }
 
 nav > :hover {
-    background-color: var(--cor2);
+    background-color: var(--cor4);
     color: var(--cor5);
 }
 
